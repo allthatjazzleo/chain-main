@@ -46,5 +46,6 @@ brews:
     github:
       owner: "allthatjazzleo"
       name: "homebrew-chain-maind"
+      token: "{{ .Env.HOMEBREW_TOKEN }}"
     install: |
       bin.install "chain-maind"
