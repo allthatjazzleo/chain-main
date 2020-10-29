@@ -79,7 +79,7 @@ brews:
     description: "chain-main daemon"
     homepage: "https://github.com/crypto-com/chain-main"
     github:
-      owner: "crypto-com"
+      owner: "allthatjazzleo"
       name: "homebrew-chain-maind"
     install: |
       bin.install "chain-maind"
