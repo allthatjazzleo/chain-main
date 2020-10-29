@@ -208,4 +208,4 @@ release:
 		-v `pwd`:/go/src/$(PACKAGE_NAME) \
 		-w /go/src/$(PACKAGE_NAME) \
 		troian/golang-cross:${GOLANG_CROSS_VERSION} \
-		release --rm-dist
+		release --rm-dist --skip-validate
