@@ -12,9 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: release dry run
-          run: make release-dry-run
+        run: make release-dry-run
       - name: setup release environment
-          run: |-
-            echo 'GITHUB_TOKEN=${{secrets.HOMEBREW_TOKEN}}' > .release-env
+        run: |-
+          echo 'GITHUB_TOKEN=${{secrets.HOMEBREW_TOKEN}}' > .release-env
       - name: release publish
-          run: make release
+        run: make release
